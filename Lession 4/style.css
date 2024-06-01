@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.personal_information_heading {
+    padding: 5px 5px;
+    background-color: beige;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.img img{
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.short_information li, .employment_list li, .information_education li, .information_language li {
+    list-style-type: none;
+    margin-left: 5px;
+}
+
+.employment_heading{
+    background-color: rgb(233, 233, 193);
+    padding: 5px 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.employment_list{
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.employment_list h4, .information_education h4{
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.short_information ul{
+    margin-top: 5px;
+}
+
+.short_information h3 {
+    margin-top: 5px;
+    
+}
+
+.employment_heading h2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.information_education_heading{
+    background-color: rgb(194, 194, 150);
+    padding: 5px 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.information_education{
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.information_education_heading h2, .information_language_heading h2 {
+    margin-bottom: 5px;
+}
+
+.information_language_heading{
+    background-color: rgb(194, 194, 150);
+    padding: 5px 5px;
+    margin-top: 10px;
+    border-radius: 5px; 
+}
+
+.information_language li {
+    margin-left: 5px;
+
+}
