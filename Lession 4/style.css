@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     font-family: "Montserrat", sans-serif;
+    line-height: 1.5rem;
 }
 
 body {
@@ -12,7 +13,6 @@ body {
 .personal_information_heading {
     padding: 5px 5px;
     background-color: beige;
-    margin-top: 10px;
     border-radius: 5px;
 }
 
@@ -26,10 +26,15 @@ body {
     margin-left: 5px;
 }
 
+.personal_information_heading,
+ .employment_heading,
+ .information_education_heading {
+    margin-top: 10px;
+}
+
 .employment_heading{
     background-color: rgb(233, 233, 193);
     padding: 5px 5px;
-    margin-top: 10px;
     border-radius: 5px;
 }
 
@@ -47,6 +52,12 @@ body {
     margin-top: 5px;
 }
 
+.skills_short{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
 .short_information h3 {
     margin-top: 5px;
     
@@ -60,7 +71,6 @@ body {
 .information_education_heading{
     background-color: rgb(194, 194, 150);
     padding: 5px 5px;
-    margin-top: 10px;
     border-radius: 5px;
 }
 
@@ -74,7 +84,7 @@ body {
 }
 
 .information_language_heading{
-    background-color: rgb(194, 194, 150);
+    background-color: rgb(163, 163, 127);
     padding: 5px 5px;
     margin-top: 10px;
     border-radius: 5px; 
