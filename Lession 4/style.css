@@ -1,3 +1,4 @@
+
 *{
     margin:0;
     padding:0;
@@ -5,92 +6,75 @@
     line-height: 1.5rem;
 }
 
+
+
+:root {
+  --caribbean_current: #006D77;  /* Dark Slate Gray */
+  --tiffany_blue: #83C5BE;      /* Light Sky Blue */
+  --alice_blue: #EDF6F9;        /* Alice Blue */
+  --pale_dogwood: #FFDDD2;     /* Pale Goldenrod */
+  --atomic_tangerine: #E29578; /* Sienna */
+}
+
 body {
     margin-left: 20px;
     margin-right: 20px;
 }
 
-.personal_information_heading {
-    padding: 5px 5px;
-    background-color: beige;
-    border-radius: 5px;
+main {
+    width: 50%;
+    margin: 0 auto;
 }
 
-.img img{
-    border-radius: 5px;
-    margin-top: 15px;
-}
+.caribbean_current {
+    color: var(--caribbean_current);
+  }
+  
+  .tiffany_blue {
+    background-color: var(--tiffany_blue);
+  }
+  
+  .alice_blue {
+    background-color: var(--alice_blue);
+  }
+  
+  .pale_dogwood {
+    border-color: var(--pale_dogwood);
+  }
+  
+  .atomic_tangerine {
+    color: var(--atomic_tangerine);
+  }
 
-.short_information li, .employment_list li, .information_education li, .information_language li {
-    list-style-type: none;
-    margin-left: 5px;
-}
+  .uppercase {
+    text-transform: uppercase;
+  }
 
-.personal_information_heading,
- .employment_heading,
- .information_education_heading {
+  .mt-10{
     margin-top: 10px;
-}
+  }
 
-.employment_heading{
-    background-color: rgb(233, 233, 193);
-    padding: 5px 5px;
-    border-radius: 5px;
-}
+  .mb-10{
+    margin-bottom: 10px;
+  }
 
-.employment_list{
-    margin-left: 5px;
-    margin-bottom: 5px;
-}
+  .pt-10{
+    padding-top: 10px;
+  }
 
-.employment_list h4, .information_education h4{
-    margin-left: 5px;
-    margin-bottom: 5px;
-}
+  .pb-10{
+    padding-bottom: 10px;
+  }
 
-.short_information ul{
-    margin-top: 5px;
-}
+  .pl-10 {
+    padding-left:10px;
+  }
 
-.skills_short{
-    font-weight: bold;
-    margin-bottom: 5px;
-}
+  .text_decoration {
+    text-decoration: none;
+  }
+  
+  .list_style {list-style-type: none}
+  
 
-
-.short_information h3 {
-    margin-top: 5px;
-    
-}
-
-.employment_heading h2{
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-.information_education_heading{
-    background-color: rgb(194, 194, 150);
-    padding: 5px 5px;
-    border-radius: 5px;
-}
-
-.information_education{
-    margin-left: 5px;
-    margin-bottom: 5px;
-}
-
-.information_education_heading h2, .information_language_heading h2 {
-    margin-bottom: 5px;
-}
-
-.information_language_heading{
-    background-color: rgb(163, 163, 127);
-    padding: 5px 5px;
-    margin-top: 10px;
-    border-radius: 5px; 
-}
-
-.information_language li {
-    margin-left: 5px;
-
-}
+  
