@@ -75,6 +75,15 @@ main {
   }
   
   .list_style {list-style-type: none}
+
+  .border_style{
+    border-radius: 8px;
+    
+  }
+
+  .height_style{
+    height: 150px;
+  }
   
 
   
